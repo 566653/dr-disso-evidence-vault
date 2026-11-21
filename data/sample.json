@@ -1,0 +1,11 @@
+[
+  {
+    "id": "synthetic-001",
+    "hash_mismatch": true,
+    "missing_evidence": true
+  },
+  {
+    "id": "synthetic-002",
+    "note": "benign"
+  }
+]

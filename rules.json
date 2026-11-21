@@ -1,0 +1,23 @@
+[
+  {
+    "id": "hash_mismatch",
+    "field": "hash_mismatch",
+    "equals": true,
+    "score": 90,
+    "reason": "hash mismatch"
+  },
+  {
+    "id": "missing_evidence",
+    "field": "missing_evidence",
+    "equals": true,
+    "score": 80,
+    "reason": "missing evidence"
+  },
+  {
+    "id": "unlogged_transfer",
+    "field": "unlogged_transfer",
+    "equals": true,
+    "score": 40,
+    "reason": "unlogged transfer"
+  }
+]

@@ -1,0 +1,43 @@
+# Digital Evidence Integrity Vault | DR Disso
+
+**Coffre d'intÃ©gritÃ© des preuves numÃ©riques**
+
+[![Tests](https://github.com/566653/dr-disso-evidence-vault/actions/workflows/tests.yml/badge.svg)](https://github.com/566653/dr-disso-evidence-vault/actions/workflows/tests.yml)
+
+## English
+
+Hash local evidence, create reproducible manifests and verify chain-of-custody integrity.
+
+A **working, offline, rule-based investigation prototype** with auditable JSON findings, SHA-256 source integrity, sample records and unit tests. No cloud account or external API required.
+
+### Quick start
+
+```bash
+python engine.py data/sample.json --output report.json
+python -m unittest discover -s tests -v
+```
+
+
+### Ethical use
+
+Use only your own data or data collected with appropriate legal authorization. Preserve originals; investigate copies. A flag is **not** proof of wrongdoing, attribution or guilt. This project does not access live devices, private accounts or third-party systems.
+
+## FranÃ§ais
+
+Calculer les empreintes des preuves locales, crÃ©er des manifestes et vÃ©rifier leur intÃ©gritÃ©.
+
+Prototype fonctionnel **hors ligne**, fondÃ© sur des rÃ¨gles explicables : rapports JSON, empreintes SHA-256, exemples synthÃ©tiques et tests automatisÃ©s.
+
+Lancement : `python engine.py data/sample.json --output rapport.json`.
+
+Utilisez uniquement des donnÃ©es autorisÃ©es. Les alertes sont des pistes d'investigation, jamais une preuve d'identitÃ© ou de culpabilitÃ©.
+
+## Contribute / Contribuer
+
+Security researchers and defensive developers are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Open an issue or a pull request for improvements, tests, parsers or documentation. Please do not upload real victim data.
+
+## Discover / DÃ©couvrir
+
+GitHub Topics: cybersecurity, digital-forensics, incident-response, cybercrime-investigation, python
+
+**Author / Auteur:** DR Disso
